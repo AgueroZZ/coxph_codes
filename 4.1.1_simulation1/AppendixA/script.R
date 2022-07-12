@@ -17,7 +17,7 @@ library(doParallel)
 TEXT_SIZE <- 25
 
 
-# compile("03_coxph_frailty.cpp")
+compile("03_coxph_frailty.cpp")
 dyn.load(dynlib("03_coxph_frailty"))
 
 
